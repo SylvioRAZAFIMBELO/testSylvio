@@ -1,0 +1,127 @@
+
+#blocp
+#bloc1{
+	width: 60%;
+	height: 200px;
+	background: darkred;
+	margin-left: 10%;
+	margin-top: 0px;
+	position: absolute;
+}
+#bloc2{
+	width: 20%;
+	height: 300px;
+	background: darkslategray;
+	margin-left: 70.5%;
+	}
+#bloc3{
+	width: 18%;
+	height: 200px;
+	background: whitesmoke;
+	position: absolute;
+	margin-left: 10%;
+	margin-top: -100px;
+}
+#bloc4{
+	width: 22%;
+	height: 200px;
+	background: darkslategray;
+	position: absolute;
+	margin-left: 28%;
+	margin-top: -100px;
+}
+#bloc5{
+	width: 20%;
+	height: 100px;
+	background: darkorange;
+	position: absolute;
+	margin-left: 49.9%;
+	margin-top: -100px;
+}
+#bloc6{
+	width: 20%;
+	height: 100px;
+	background: darkred;
+	position: absolute;
+	margin-left: 49.9%;
+	margin-top: 0px;
+}
+#bloc7{
+	width: 10%;
+	height: 100px;
+	background: whitesmoke;
+	position: absolute;
+	margin-left: 69.9%;
+	margin-top: 0px;
+}
+#bloc8{
+	width: 10%;
+	height: 100px;
+	background: darkred;
+	position: absolute;
+	margin-left: 79.75%;
+	margin-top: 0px;
+}
+#bloc9{
+	width: 20%;
+	height: 100px;
+	background: darkorange;
+	position: absolute;
+	margin-left: 10%;
+	margin-top: 100px;
+}
+#bloc10{
+	width: 20%;
+	height: 100px;
+	background: darkslategray;
+	position: absolute;
+	margin-left: 10%;
+	margin-top: 200px;
+}
+#bloc11{
+	width: 40%;
+	height: 200px;
+	background: whitesmoke;
+	position: absolute;
+	margin-left: 30%;
+	margin-top: 100px;
+}
+#bloc12{
+	width: 19.8%;
+	height: 200px;
+	background: darkorange;
+	position: absolute;
+	margin-left: 69.9%;
+	margin-top: 100px;
+}
+#bloc13{
+	width: 40%;
+	height: 200px;
+	background: darkred;
+	position: absolute;
+	margin-left: 10%;
+	margin-top: 300px;
+}
+#bloc14{
+	width: 20%;
+	height: 100px;
+	background: darkslategray;
+	position: absolute;
+	margin-left: 50%;
+	margin-top: 300px;
+}
+#bloc15{
+	width: 20%;
+	height: 100px;
+	background: darkorange;
+	position: absolute;
+	margin-left: 50%;
+	margin-top: 400px;
+}#bloc16{
+	width: 19.8%;
+	height: 200px;
+	background: whitesmoke;
+	position: absolute;
+	margin-left: 69.9%;
+	margin-top: 300px;
+}

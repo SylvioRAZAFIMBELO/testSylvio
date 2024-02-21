@@ -1,0 +1,150 @@
+
+body{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+.navbar{
+	padding:15px 5%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: sticky;
+	top: 0%;
+	background-color: black;
+	z-index: 999;
+}
+.navbar .logo h1{
+	color: white; 
+	cursor: pointer;
+}
+.navbar .menu li{
+	list-style: none;
+	display: inline-block;
+}
+.navbar .menu li a{
+	display: block;
+	margin-left: 20px;
+	color: white;
+	border-bottom: 4px solid transparent;
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: bold;
+}
+.navbar .menu li .miasa{
+	border-bottom: 4px solid red;
+}
+.navbar .menu li .a:hover{
+	border-bottom: 4px solid red;
+}
+.sect{
+	background-color: #d9d9d9;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 0 5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	color: #424144;
+	height:50vh;
+
+
+}
+#soratra{
+	position: absolute;
+margin-left: 200px;
+
+}
+#sary{
+	margin-left: 1000px;
+	position: absolute;
+	box-shadow: 0 10px 20px;
+}
+.sect #soratra #boutton{
+margin-left: 140px;
+margin-top: 20px;
+background: red;
+color: white;
+border-radius: 5px;
+cursor: pointer;
+padding: 15px 20px;
+}
+.sect #soratra #h1{
+margin-left: 70px;
+margin-top: -20px;
+}
+.produits_text{
+	text-align: left;
+	font-size: 30px;
+	font-weight: 300;
+	margin-top: 30px;
+	margin-left: 80px;
+	color: grey;
+}
+.section_produits{
+	padding: 40px 5%;
+}
+.produits{
+	display: grid;
+	grid-template-columns: repeat(auto-fit,min(320px,1fr));
+}
+.produits .carte{
+	width: 310px;
+	background: white;
+	bottom: 0 10px 20px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+.produits .carte img{
+	height: 250px;
+	width: 100%;
+	border-radius: 10px;
+} 
+.produits .carte .desc{
+	padding: 5px 20px;
+	opacity: 0.8;
+}
+.produits .carte .titre{
+	font-weight: 900;
+	font-size: 20px;
+	color: grey;
+	padding: 0 20px;
+}
+.produits .carte .box{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+}
+.produits .carte .prix{
+	color: red;
+	font-size: 20px;
+	font-weight: bold;
+}
+.produits .carte .achat{
+	font-size: 13px;
+	font-weight: 900;
+	color: red;
+	padding: 10px 18px;
+	border-radius: 5px;
+}
+.produits .carte .box .achat:hover{
+	cursor: pointer;
+	background: black;
+	color: white;
+}
+footer{
+	background: grey;
+	height: 10vh;
+}
+footer p{
+	text-align: center;
+	line-height: 10vh;
+}
+footer p a{
+	text-decoration: none;
+	color: red;
+	font-weight: bold;
+}
+

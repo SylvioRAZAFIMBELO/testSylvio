@@ -1,0 +1,79 @@
+body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	background: cornflowerblue;
+}
+#lohany{
+	width: 100%;
+	height: 50px;
+}
+#lohany ul li{
+	display: inline-block;
+	list-style: none;
+	width: 150px;
+	height: 40px;
+	text-align: center;
+	padding-top: 10px;
+	margin-top: 0px;
+}
+#lohany ul li:hover{
+	background: white;
+	color: white;
+	border-radius: 10px;
+}
+#lohany ul{
+	margin: 0;
+}
+#lohany ul li ul{
+	margin-top: 20px;
+	position: absolute;
+	display: none;
+	z-index: 2;
+}
+#lohany ul li:hover ul{
+	display: block;
+	margin-left: -41px;
+}
+#lohany ul li ul li{
+	position: relative;
+	display: block	;
+}
+#bloc1{
+	width: 100%;
+	height: 250px;
+	margin-top: -15px;
+	background-image: url("../img/image de fond1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#bloc1 h1{
+	position: relative;
+	text-align: center;
+	color: white;
+	padding-top: 50px;
+}
+#bloc1 button{
+	background-color: ;
+	color: blue;
+	padding-block: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-family: cursive;
+	cursor: cell;
+	display: block;
+	margin-left: 45.5%;
+}
+#bloc1 button:hover{
+	background-color: darkred;
+	box-shadow: 10px;
+	color: black;
+}
+#bloc2{
+	width: 100%;
+	height: 200px;
+	background-image: url("../img/1858.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
